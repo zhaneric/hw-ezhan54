@@ -1,0 +1,21 @@
+Eric Zhan
+HW 
+
+
+1.)
+a. 1, 4, 8
+b. 2, 3, 4, 5
+c. 2.
+d. 2, 4
+
+
+2.)
+a. 3
+b. git add hw1q2b.cpp
+git log -n 3
+c. The commit command is actually what commits your staged files to your repository. Files that are committed become a part of your repository history.
+
+
+6.
+b. See attached
+c. It’s possible to overwrite a part of the buffer even when the user has a pointer to it because the pointer only accesses it using the memory address. Whenever we overwrite any variable using buffer, we are only changing whatever data is being held at that current memory location. So if the user has a char pointer to buffer[5] when I alter buffer[5], the value that the user’s char pointer points to changes as well.
